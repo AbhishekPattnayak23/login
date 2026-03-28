@@ -1,0 +1,15 @@
+{
+  "name": "simple-responsive-page",
+  "version": "1.0.0",
+  "description": "A simple responsive webpage with interactive JavaScript features",
+  "main": "script.js",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 3000"
+  },
+  "keywords": ["responsive", "interactive", "vanilla-js"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
