@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Responsive Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Simple Responsive Page</h1>
+        <nav data-js-nav>
+            <button data-js-interactive class="nav-item active">Home</button>
+            <button data-js-interactive class="nav-item">About</button>
+            <button data-js-interactive class="nav-item">Contact</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="content-section" data-js-content>
+            <h2>Welcome</h2>
+            <p>This is a simple responsive webpage with interactive elements.</p>
+            <button data-js-interactive class="cta-button">Click me!</button>
+            <div data-js-interactive class="toggle-box">Toggle content</div>
+        </section>
+
+        <section id="about" class="content-section hidden" data-js-content>
+            <h2>About Us</h2>
+            <p>A progressively enhanced web experience.</p>
+        </section>
+
+        <section id="contact" class="content-section hidden" data-js-content>
+            <h2>Contact</h2>
+            <form data-js-form>
+                <input type="email" placeholder="your@email.com" required>
+                <textarea placeholder="Your message" required></textarea>
+                <button type="submit" data-js-interactive>Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple Responsive Page</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
